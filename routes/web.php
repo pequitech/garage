@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function (Request $request) {
+Route::any('/', function (Request $request) {
     \Log::info('Request received', \Request::all());
 });
